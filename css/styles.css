@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+
+}
+
+#animation-container {
+    background: #4caf50;
+    height: 100vh;
+}
+
+.inner-circle {
+    -webkit-animation: translate 3s infinite linear alternate; /* Safari & Chrome */
+    position: absolute;
+    top: 25vh;
+    left: 25vw;
+}
+
+@-webkit-keyframes translate {
+    to {
+        -webkit-transform: translate(0px, 50vh);
+    }
+}
+
